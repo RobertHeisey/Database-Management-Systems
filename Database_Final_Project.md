@@ -7,14 +7,14 @@ Robert Heisey
 ## Database Summary Report
 
 ### Project Overview
-My database is a simplistic Video Game Collecting database. It's meant to store the info of someone's collection of games. A real world example of this kind of system is "PriceCharting" at https://www.pricecharting.com/. Here individuals can look up video games and related devices, and make a list of their own software.
+My database is a simplistic Video Game Collecting database. It's meant to store the info of someone's collection of games. A real world example of this kind of system is "PriceCharting" at https://www.pricecharting.com/. Here individuals can look up video games and related devices and make a list of their own software.
 
 Personally, I really enjoy looking through these websites as game collecting is a hobby of mine. I like the history and cultural impact that these games make. Sometimes you'll see a console with almost nothing released for it or a game that nobody bought at its release that now markets for hundreds of dollars.
 
 ### Users View
-Since my database is more simple then actual collection databases, there aren't as many usages for it like the real things. Mine just creates a list of games and game platforms for the user to insert into it. There's no looking up a full catalog of a platform or seeing anything not added by the user themself.
+Since my database is more simple than actual collection databases, there aren't as many usages for it like the real things. Mine just creates a list of games and game platforms for the user to insert into it. There's no looking up a full catalog of a platform or seeing anything not added by the user themself.
 
-The user adds games with its title, price, release date, the platform its on, and its publisher. This way they can see their own personal collection, how many games they have, the prices of those games, and etc. Using the database can create a simpliar way of keeping track of the collection.
+The user adds games with its title, price, release date, the platform its on, and its publisher. This way they can see their own personal collection, how many games they have, the prices of those games, and etc. Using the database can create a simpler way of keeping track of the collection.
 
 ---
 
@@ -57,7 +57,7 @@ erDiagram
 ```
 
 ### Database Design Description
-The overall design of the database uses four tables. These are Game, Platform, Publisher, and a fourth table that serves as a associate table for linking Game and Platform. The games added to the database can only have one publisher and need at least one platform. The game platforms also can only have one publisher and need at least one game. Meanwhile, the publishers need one game, but they don't need to have a platform as they could have just made games.
+The overall design of the database uses four tables. These are Game, Platform, Publisher, and a fourth table that serves as an associate table for linking Game and Platform. The games added to the database can only have one publisher and need at least one platform. The game platforms also can only have one publisher and need at least one game. Meanwhile, the publishers need one game, but they don't need to have a platform as they could have just made games.
 
 | Table                     | Purpose                                                  |
 | ------------------------- | -------------------------------------------------------- |
@@ -805,10 +805,18 @@ MySQL returned an empty result set (i.e. zero rows). (Query took 0.0001 seconds.
 ---
 
 ### Reports
+---
+Graph Report
 
-I can't get reports to work for the life of me. I'm going to turn the reports in late because I would rather tank some point from those to not lose points for the all of the stuff I already have done. Same for the poster because I need to put the reports on there.
+<img width="2206" height="1925" alt="Games Per Platform Report" src="https://github.com/user-attachments/assets/382052ad-7abe-469c-b97e-2deb58fa3de7" />
+
 
 ---
+---
+Table Report
+
+<img width="224" height="320" alt="Games per Publisher Report" src="https://github.com/user-attachments/assets/3053d5ac-5cf2-4460-b99c-da2371d85852" />
+
 
 ---
 
