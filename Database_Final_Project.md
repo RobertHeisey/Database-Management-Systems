@@ -842,8 +842,7 @@ DROP TABLE IF EXISTS publisher;
 
 ### Poster and Presentation
 
-I will sumbit this late because I still do not have the reports ready.
-
+[Database Final Poster.pdf](https://github.com/user-attachments/files/24095794/Database.Final.Poster.pdf)
 
 ---
   -- end --
